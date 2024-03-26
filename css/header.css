@@ -1,0 +1,196 @@
+.header {
+	margin-bottom: 35px;
+	font-size: 16px;
+	letter-spacing: -0.02em;
+
+	background-color: #fff;
+}
+
+.black-bar {
+	padding: 18px 0 22px 0;
+
+	background-color: #00122f;
+	color: #ffffff;	
+}
+
+	.black-bar-heading {
+		display: inline-block;
+
+		margin: 0;
+
+		font-size: 16px;
+			font-weight: normal;
+	}
+
+		.black-bar-url {
+			text-decoration: underline;		
+		}
+
+	/* .black-bar-time {
+		float: right;
+	} */
+
+	/* ----------------------- */
+.logo-bar {
+	padding: 30px 0;
+	width: 100%;
+}
+
+.logo-bar-fixed-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	min-height: 60px;
+}
+
+	.testMenu-button {
+		display: none;
+		width: 7%;
+		height: 40px;
+		border: none;
+		background: url('../img/menuOpenButton.png') no-repeat;
+		background-position: center;
+	}
+	
+	.logo-box {
+		display: flex;
+		align-items: center;
+		font-size: 16px;
+	}
+	.logo-bar-logo {
+		/* float: left; */
+		/* width: 40px; */
+	}
+
+	.logo-box-text {
+		width: 80px;
+		margin-left: 10px;
+	}
+
+	.logo-bar-url {		
+		position: relative;
+
+		padding-right: 15px;
+
+		padding-bottom: 3px;
+
+		color: #85afda;
+
+		background: url('../img/arrow.png') no-repeat;
+		background-position: right center;
+		/* float: left; */
+		/* margin-top: 12px;
+		margin-left: 60px; */
+	}
+		.logo-bar-url-text {	
+			border-bottom: 1px dashed #85afda;
+		}
+
+	/* .logo-bar-url:after {
+		content: "";
+		position: absolute;
+		margin: 5px 0 0 5px;
+
+		width: 100%;
+		height: 100%;
+
+		background: url('../img/arrow.png') no-repeat;
+	} */
+
+	.logo-bar-datetime {
+		color: #91919f;
+
+		/* float: left; */
+		/* margin-top: 12px;
+		margin-left: 65px; */
+	}
+
+		.logo-bar-time {
+			padding: 2px 0 2px 25px;
+
+			background: url('../img/clock.png') no-repeat;
+			/* margin-left: 30px; */
+		}
+
+	.logo-bar-weather {
+		padding: 2px 0 2px 40px;
+
+		color: #91919f;
+
+		background: url('../img/sky.png') no-repeat;
+		/* float: left; */
+		/* margin-top: 10px;
+		margin-left: 30px; */
+	}
+
+	.logo-bar-seach {
+		position: relative;
+
+		min-width: 320px;
+
+		font-size: 14px;
+		/* float: right; */
+	}
+
+		.seach-box {
+			height: 45px;
+			width: 100%;
+
+			padding: 0 35px 0 20px;
+
+			border: none;
+			border-radius: 20px;
+
+			letter-spacing: -0.02em;
+
+			background-color: #f3f3f3;
+		}
+
+		.seach-button {
+			position: absolute;
+			top: 30%;
+			right: 17px;
+
+			width: 20px;
+			height: 20px;
+
+			border: none;
+
+			background: url('../img/seach-icon.png') no-repeat;
+		}
+
+		.testSeach-button {
+			display: none;
+			width: 7%;
+			height: 40px;
+		
+			border: none;
+			background: url('../img/seachButton.png') no-repeat;
+			background-position: center;
+		}
+	
+		/* --------------------------------- */
+		.flex-container-menu {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: flex-start;
+			align-items: center;
+		}
+	
+		.head-list-nav:first-child  {		
+		padding-left: 0;
+		margin-left: 0;
+		margin-bottom: 10px;
+
+		border: none;
+		background: none;
+	}
+
+	.head-list-nav {
+		padding-left: 25px;
+		margin-left: 13px;
+		margin-bottom: 10px;
+
+		background: url('../img/slesh.png') no-repeat;
+	}

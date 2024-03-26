@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Новостное агентство</title>
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/header.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
+
+	<link rel="stylesheet" type="text/css" href="css/mediaHeader.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaFooter.css">
+	<link rel="stylesheet" type="text/css" href="css/mediaMain.css">
+
+	<script src="js/jQueryv3.4.1.js" defer></script>
+	<script src="js/scripts.js" defer></script>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+		<header class="header">
+		<div class="black-bar">
+			<div class="fixed-container flex-container">
+				<h1 class="black-bar-heading">Самые 
+					<a class="black-bar-url" href="#">свежие новости</a> в реальном времени
+				</h1>
+
+				<time class="black-bar-time" datetime="2018-06-19T12:30">12:30 01.01.2024</time>
+			</div>
+		</div>
+
+		<div class="logo-bar">
+			<div class="fixed-container logo-bar-fixed-container">
+				<button id = "js-slideMenu-button" class="testMenu-button" 
+					type="button" aria-label="Развернуть меню" 
+					aria-expanded="true"
+					aria-controls="js-search-form">
+				</button>
+				
+				<!-- <div class = "logo-box">
+					<img class="logo-bar-logo" src="img/logoPicture.png" alt="Логотип компании новостей">
+					<span class = logo-box-text>Новостное агенство</span>
+				</div> -->
+				<img class="logo-bar-logo" src="img/logo.png" alt="Логотип компании новостей">
+
+				<a class="logo-bar-url" href="#">
+					<span class="logo-bar-url-text">Москва</span>
+				</a> 
+
+				<time class="logo-bar-datetime" datetime="2024-01-01T10:48">
+					1 января, вторник
+					
+				</time>
+
+				<span class="logo-bar-time">10:48</span>
+
+				<span class="logo-bar-weather">+22 &#8451;</span>
+
+				<form id = "js-search-form" class="logo-bar-seach">
+					<input class="seach-box" type="search" name="seach-box" placeholder="Поиск по сайту">
+				
+					<button class="seach-button" aria-label="Кнопка поиска" type="submit"></button>
+				</form>
+				<button 
+					class="testSeach-button" 
+					type="button" aria-label="Развернуть меню" 
+					aria-expanded="true"
+					aria-controls="js-menu">
+				</button>	
+			</div>
+		</div>
+
+		<nav id = "js-menu" class = "testMenu ">
+			<div class="fixed-container ">
+				
+				<ul id = 'js-menuField' class="flex-container-menu list-style-reset hideElement">
+					<li class="head-list-nav"><a href="#">Главная</a></li>
+
+					<li class="head-list-nav"><a href="#">Политика</a></li>
+
+					<li class="head-list-nav"><a href="#">Общество</a></li>
+
+					<li class="head-list-nav"><a href="#">Экономика</a></li>
+
+					<li class="head-list-nav"><a href="#">В мире</a></li>
+
+					<li class="head-list-nav"><a href="#">Проишествия</a></li>
+
+					<li class="head-list-nav"><a href="#">Спорт</a></li>
+
+					<li class="head-list-nav"><a href="#">Наука</a></li>
+
+					<li class="head-list-nav"><a href="#">Туризм</a></li>						
+				</ul>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="main-part">
+			<div class="fixed-container flex-container-main">
+				<section class="days-news">
+						<h2 class="days-news-title">Новости дня</h2>
+
+						<ul class="list-style-reset days-news-ulist">
+							<li class="days-news-article-list">
+								<article>
+									<h3 class="days-news-article-heading">
+										<a>Летние кафе Москвы временно закроются из-за непогоды</a>
+									</h3>
+							
+									<a class="days-news-article-url" href="#">/ Общество</a>
+
+									<span class="days-news-article-comment comments-img">17</span>
+
+									<time class="days-news-article-time time-img" datetime="10:48">10:48</time>	
+								</article>
+							</li>
+
+							<li class="days-news-article-list">
+								<article>
+									<h3 class="days-news-article-heading">
+										<a>Минтранс предписал оборудовать общественный транспорт кондиционерами</a>
+									</h3>
+							
+									<a class="days-news-article-url" href="#">/ Политика</a>
+
+									<span class="days-news-article-comment comments-img">17</span>
+
+									<time class="days-news-article-time time-img" datetime="10:48">10:48</time>	
+								</article>
+							</li>
+
+							<li class="days-news-article-list">
+								<article>
+									<h3 class="days-news-article-heading">
+										<a>Минтранс предписал оборудовать общественный транспорт кондиционерами</a>
+									</h3>
+							
+									<a class="days-news-article-url" href="#">/ Транспорт</a>
+
+									<span class=" days-news-article-comment comments-img">17</span>
+
+									<time class="days-news-article-time time-img" datetime="10:48">10:48</time>			
+								</article>
+							</li>
+
+							<li class="days-news-article-list">
+								<article>
+									<h3 class="days-news-article-heading">
+										<a>Летние кафе Москвы временно закроются из-за непогоды</a>
+									</h3>
+							
+									<a class="days-news-article-url" href="#">/ Погода</a>
+
+									<span class=" days-news-article-comment comments-img">17</span>	
+
+									<time class="days-news-article-time time-img" datetime="10:48">10:48</time>
+								</article>
+							</li>
+
+							<li class="days-news-article-list">
+								<article>
+									<h3 class="days-news-article-heading">
+										<a>Комплексное благоустройство Щелковского шоссе завершится в июне</a>
+									</h3>
+							
+									<a class="days-news-article-url" href="#">/ Транспорт</a>
+
+									
+									<span class="days-news-article-comment comments-img">17</span>
+
+									<time class="days-news-article-time time-img" datetime="10:48">10:48</time>
+								</article>
+							</li>
+
+							<li class="days-news-article-list">
+								<article>
+									<h3 class="days-news-article-heading">
+										<a>Комплексное благоустройство Щелковского шоссе завершится в июне</a>
+									</h3>
+							
+									<a class="days-news-article-url" href="#">/ Транспорт</a>
+
+									<span class="days-news-article-comment comments-img">17</span>
+
+									<time class="days-news-article-time time-img" datetime="10:48">10:48</time>	
+								</article>
+							</li>
+						</ul>
+
+						<a class="all-news-button" href="#">Все новости</a>
+				</section>
+
+				<section class="main-news">
+					<h2 class="visually-hidden">Центрльная секция</h2>
+
+					<ul class="list-style-reset main-news-list">
+						<li class="short-news-main">
+							<article class="main-news-article gradient">
+								<img class="main-news-article-img" src="img/news5.png" alt="Фотография к новости про Крым. Панорама моря, справа изображен замок">
+
+								<a class="main-news-article-url" href="#">/ Общество</a>
+
+								<h3 class="main-news-article-heading">
+									<a>Москвичи не увидят метеорный поток Геминиды из-за погоды</a>
+								</h3>
+
+								<time class="main-news-article-time" datetime="2018-06-19T10:48">
+									<span>01 января 2024</span>
+									<span class="main-news-article-clock">10:48</span>
+								</time>	
+							</article>
+						</li>
+
+						<li class="short-news">
+							<article>
+								<img src="img/news1.png" alt="фотография минингующего Навального">
+
+								<h3 class="short-news-article-heading">
+									<a>Как правильно снимать пейзажи на Iphone</a>
+								</h3>
+
+								<a class="short-news-article-url" href="#">/ Техника</a>
+
+								<span class="short-news-article-comments comments-img">17</span>
+					
+								<time class="time-img" datetime="10:48">10:48</time>	
+							</article>
+						</li>
+
+							<li class="short-news">
+								<article>
+									<img src="img/news2.png" alt="фотография лежащих на столе трех паспортов">
+
+									<h3 class="short-news-article-heading">
+										<a>Что такое общий искусственный интеллект: венец эволюции ИИ</a>
+									</h3>
+							
+									<a class="short-news-article-url" href="#">/ Общество</a>
+
+									<span class="short-news-article-comments comments-img">17</span>
+					
+									<time class="time-img" datetime="10:48">10:48</time>	
+								</article>
+							</li>
+							<li class="short-news">
+							<article>
+								<img class="short-news-img-correct" src="img/news4.png" alt="фотография лежащей на траве девушки в желтом">
+
+								<h3 class="short-news-article-heading short-news-heading-correct">
+									<a>В России заработал стриминговый сервис YouTube</a>
+								</h3>
+
+								<a class="short-news-article-url" href="#">/ Интернет</a>
+
+								<span class="short-news-article-comments comments-img">17</span>
+				
+								<time class="time-img" datetime="10:48">10:48</time>
+							</article>
+						</li>
+
+						<li class="short-news">
+							<article>
+								<img class="short-news-img-correct" src="img/news3.png" alt="фотография радостного бегущего футболиста">
+
+								<h3 class="short-news-article-heading short-news-heading-correct">
+									<a>Названы запрещенные для подключения к удлинителю бытовые приборы</a>
+								</h3>
+
+								<a class="short-news-article-url" href="#">/ Политика</a>
+
+								<span class="short-news-article-comments comments-img">17</span>
+					
+								<time class="time-img" datetime="10:48">10:48</time>
+							</article>
+						</li>
+					</ul>						
+				</section>	
+
+				<aside class="banners">
+					<h2 class="visually-hidden">Блок рекламы</h2>
+					<ul class="list-style-reset">
+						<li class="banners-list">
+							<a href="#"><img src="img/banner-1.png" alt="Баннер рекламы по продаже лексуса. Изображена машина и стоимость со скидкой"></a>
+						</li>
+
+						<li class="banners-list">
+							<a href="#"><img src="img/banner-2.png" alt="Баннен рекламы. Мужчина представляет спортивные товары"></a>
+						</li>
+					</ul>
+				</aside>
+				
+				
+
+				<section class="most-reading">
+					<h2 class="most-reading-heading">Самые читаемые новости</h2>
+						
+							<article class="most-reading-news-main gradient">
+								<img class="most-reading-news-main-img" src="img/news6.png" alt="фотография грузовика, выезжающего со склада в Китае">
+
+								<a class="most-reading-news-main-url" href="#">/ Политика</a>
+
+								<h3 class="most-reading-news-main-heading">
+										<a href="#">Alibaba признала участие китайских властей в 12 своих подразделениях</a>
+								</h3>
+
+								<time class="most-reading-news-main-time" datetime="2024-01-01T10:48">
+									<span>01 Января 2024</span>
+									<span class="main-news-article-clock">10:48</span>
+								</time>
+								
+								<p class="most-reading-news-main-paragraph">В минувшие выходные китайский интернет-ритейлер Alibaba уведомил биржевых регуляторов США и Гонконга об участии китайского государства в акционерном капитале 12 своих подразделений.</p>
+							</article>
+										
+							<ul class="most-reading-news-short list-style-reset ">
+								<li class="most-reading-news-short-list">
+									<article>
+										<h3 class="most-reading-news-short-heading">
+											<a>Назван минимальный доход для причесления к среднему классу</a>
+										</h3>
+										
+										<a class="short-news-article-url" href="#">/ Политика</a>
+
+										<span class="most-reading-news-short-comments comments-img">25</span>
+							
+										<time class="most-reading-news-short-time time-img" datetime="11:39">11:39</time>	
+									</article>
+								</li>
+
+								<li class="most-reading-news-short-list">
+									<article>
+										<h3 class="most-reading-news-short-heading">
+											<a>Назван минимальный доход для причесления к среднему классу</a>
+										</h3>
+
+										<a class="short-news-article-url" href="#">/ Политика</a>
+										
+										<span class="most-reading-news-short-comments comments-img">25</span>	
+						
+										<time class="most-reading-news-short-time time-img" datetime="11:39">11:39</time>
+									</article>
+								</li>
+
+								<li class="most-reading-news-short-list">
+									<article>
+										<h3 class="most-reading-news-short-heading">
+											<a>Назван минимальный доход для причесления к среднему классу</a>
+										</h3>
+									
+										<a class="short-news-article-url" href="#">/ Политика</a>
+
+										<span class="most-reading-news-short-comments comments-img">25</span>	
+							
+										<time class="most-reading-news-short-time time-img" datetime="11:39">11:39</time>
+									</article>
+								</li>
+							</ul>
+				</section>	
+			</div>
+		</div>		
+	</main>
+
+	 <footer class="footer">
+		<div class="fixed-container footer-top-box">
+			<nav class="footer-navigation">
+					<ul class="footer-nav-category list-style-reset">
+						<li class = "footer-nav-list"><a href="#">Главная</a></li>
+
+						<li class = "footer-nav-list"><a href="#">Политика</a></li>
+					
+						<li class = "footer-nav-list"><a href="#">Общество</a></li>
+						
+						<li class = "footer-nav-list"><a href="#">Экономика</a></li>
+													
+						<li class = "footer-nav-list"><a href="#">В мире</a></li>												
+				
+						<li class = "footer-nav-list"><a href="#">Путешествия</a></li>
+							
+						<li class = "footer-nav-list"><a href="#">Спорт</a></li>
+											
+						<li class = "footer-nav-list"><a href="#">Наука</a></li>
+													
+						<li class = "footer-nav-list"><a href="#">Туризм</a></li>							
+					</ul>
+				
+			</nav>
+
+			<div class="footer-info">
+				<div class="footer-logo"><img src="img/logoDark.png" alt="Логотип компании новостей"></div>
+
+				<ul class="list-style-reset contacts">
+					<li class="contacts-list">
+						<a href="#">Об агенстве</a>
+					</li>
+
+					<li class="contacts-list">
+						<a href="#">Контакты</a>
+					</li>
+
+					<li class="contacts-list">
+						<a href="#">Опубликовать новость</a>
+					</li>
+				</ul>
+			</div>
+
+			<div class="footer-contacts">
+				<ul class="list-style-reset social-nets">
+					<li class="nets">
+						<a class="vk network-box" href="#" aria-label="VK"></a>
+					</li>
+
+					<li class="nets">
+						<a class="fb network-box" href="#" aria-label="facebook"></a>
+					</li>
+
+					<li class="nets">
+						<a class="insta network-box" href="#" aria-label="Instagram"></a>
+					</li>
+
+					<li class="nets">
+						<a class="twit network-box" href="#" aria-label="Twitter"></a>
+					</li>
+				</ul>	
+
+				<ul class="list-style-reset footer-mail-tel">
+					<li class="footer-tel">
+						<a class="telefon-url" href="tel:+74999955555">+7 (499) 995-55-55</a>
+					</li>
+
+					<li class="footer-mail">
+						<a class="mail-url"  href="mailto:info@agency.ru">info@agency.ru</a>
+					</li>
+				</ul>
+			</div>
+	
+		</div>
+	  	
+	  	<p class="copy-rights-content"> &copy; Новостное агенство, 2023-2024 все права защищены</p>		
+	</footer>
+</body>
+</html>

@@ -1,0 +1,133 @@
+@media screen and (max-width: 900px) {
+
+    .logo-bar-seach {
+        display: none;
+    }
+    .logo-bar-fixed-container .testSeach-button {
+        display: block;
+    }
+    .logo-bar-fixed-container .logo-box {
+        font-size: 12px;
+    }
+    /* .logo-bar-fixed-container .logo-bar-logo {
+        width: 24px;   
+    } */
+
+}
+
+@media screen and (max-width: 550px) {
+
+    .header {
+        display: flex;
+        flex-wrap: wrap;
+    }
+        
+        .black-bar-heading {
+            margin: 0 auto;
+    
+            font-size: 14px;
+        }
+    
+        .testSeach-button {
+            display: block;
+            order: -1;
+        }
+    
+        .testMenu-button {
+            display: block;
+            order: -5;
+        }
+    
+    .logo-bar .test1  {
+        height: 100px;
+    }
+    
+        .logo-bar .clearfix:after {
+            content: none;
+            display: inherit;
+            clear: inherit;
+          }
+    
+        .logo-bar {
+            padding: 5px 0;	
+        }
+    
+        .logo-box-text {
+            padding: 0 8px;
+            width: auto;
+            font-size: 16px;
+        }
+    
+        .logo-box {
+            order: -3;
+            width: 70%;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            align-self: flex-start;
+        }
+    
+        .logo-bar-url {
+            display: none;
+        }
+    
+        .logo-bar .logo-bar-datetime {
+            margin: 0;
+            height: 20px;
+            align-self: flex-end;
+        }
+    
+        .logo-bar .logo-bar-weather {
+            margin: 55px 0 0 0;
+            height: 20px;
+            align-self: flex-end;
+        }
+    
+        .logo-bar .logo-bar-time {
+            margin: 0;
+            height: 20px;
+            align-self: flex-end;
+        }
+    
+        .testMenu {
+            order: -1;
+        }
+    
+        .black-bar-time {
+            display: none;
+        }
+    
+        .hideElement {
+            display: none;
+            /* display: flex; */
+            flex-direction: column;
+    
+            position: absolute;
+            left: 0;
+            
+            margin-top: 40px;
+            padding: 0 20px;
+            
+            width: 100%;
+            background: plum;	
+        }
+    
+        .hideElement li {
+            padding: 5px 0;
+            margin: 0;
+    
+            background: none;
+            border-top: solid 1px purple;
+        }
+    
+        .black-bar {
+            order: -2;
+            width: 100%;
+        }
+    
+        .logo-bar-seach {
+            display: none;
+        }
+
+}
